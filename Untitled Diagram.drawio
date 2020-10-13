@@ -1,1 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T22:31:09.076Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="duXGjzJOUMnvIEmwT80t" version="13.7.9" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-13T23:13:29.244Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ZY11Vi6p6hloW8PWI-c-" version="13.7.9" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1588" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Game Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="player turn ON" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Game UI (HUD)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Load all transitions" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="start game" style="verticalAlign=bottom;endArrow=block;entryX=1.1;entryY=0.095;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="uC9DOTEinsDn-lwoCp_6-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="150" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-1" value="Game Server&#xa;DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uC9DOTEinsDn-lwoCp_6-1">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-3" value="Core Mechanics" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="100" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-21" value="return controll" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.133;entryY=0.618;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.624;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uC9DOTEinsDn-lwoCp_6-3" source="uC9DOTEinsDn-lwoCp_6-4" target="uC9DOTEinsDn-lwoCp_6-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="47" y="300" />
+              <mxPoint x="-218" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uC9DOTEinsDn-lwoCp_6-3">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-5" value="Game Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uC9DOTEinsDn-lwoCp_6-3">
+          <mxGeometry x="-280" width="100" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uC9DOTEinsDn-lwoCp_6-5">
+          <mxGeometry x="45" y="70" width="15" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-7" value="player turn ON" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="uC9DOTEinsDn-lwoCp_6-5" target="uC9DOTEinsDn-lwoCp_6-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uC9DOTEinsDn-lwoCp_6-5">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-9" value="Game UI (HUD)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uC9DOTEinsDn-lwoCp_6-3">
+          <mxGeometry x="-140" width="100" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uC9DOTEinsDn-lwoCp_6-9">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-17" value="show" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uC9DOTEinsDn-lwoCp_6-3" source="uC9DOTEinsDn-lwoCp_6-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-99" y="181" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-200" y="181" />
+              <mxPoint x="-200" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-20" value="call Back" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.3;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uC9DOTEinsDn-lwoCp_6-3" source="uC9DOTEinsDn-lwoCp_6-6" target="uC9DOTEinsDn-lwoCp_6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-23" value="auto sign out" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.2;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.933;exitY=0.693;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uC9DOTEinsDn-lwoCp_6-3" source="uC9DOTEinsDn-lwoCp_6-6" target="uC9DOTEinsDn-lwoCp_6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-11" value="implement core mechanics" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uC9DOTEinsDn-lwoCp_6-3" source="uC9DOTEinsDn-lwoCp_6-5" target="uC9DOTEinsDn-lwoCp_6-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210" y="120" as="sourcePoint" />
+            <mxPoint x="-90" y="120.00000000000011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-12" value="achivement complete" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.4;exitY=0.203;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uC9DOTEinsDn-lwoCp_6-4" target="uC9DOTEinsDn-lwoCp_6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="210.0000000000001" as="sourcePoint" />
+            <mxPoint x="480" y="210.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-16" value="achievement done" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.2;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uC9DOTEinsDn-lwoCp_6-2" target="uC9DOTEinsDn-lwoCp_6-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-18" value="end game" style="verticalAlign=bottom;endArrow=block;entryX=1.4;entryY=0.132;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uC9DOTEinsDn-lwoCp_6-10">
+          <mxGeometry x="0.0512" y="-4" relative="1" as="geometry">
+            <mxPoint x="206" y="297.46000000000004" as="sourcePoint" />
+            <mxPoint x="80" y="292.5400000000001" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-19" value="save progress" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.333;exitY=0.403;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uC9DOTEinsDn-lwoCp_6-6" target="uC9DOTEinsDn-lwoCp_6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-25" value="player turn off" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="uC9DOTEinsDn-lwoCp_6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="480" as="sourcePoint" />
+            <mxPoint y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uC9DOTEinsDn-lwoCp_6-26" value="auto login" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="uC9DOTEinsDn-lwoCp_6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.5" y="200" as="sourcePoint" />
+            <mxPoint x="355" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
